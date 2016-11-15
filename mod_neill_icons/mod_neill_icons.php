@@ -13,7 +13,6 @@ $mod_name = 'mod_neill_icons';
 $document 	= JFactory::getDocument();
 $input 		= JFactory::getApplication()->input;
 
-// $document->addStyleSheet('https://use.fontawesome.com/68e5d46759.css');
 $document->addStyleSheet(JURI::base(true).'/modules/'.$mod_name.'/tmpl/css/neill-icons-style.css');
 
 require JModuleHelper::getLayoutPath($mod_name,$params->get('layout','default'));
